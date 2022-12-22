@@ -24,5 +24,15 @@ if __name__ == '__main__':
         i2 = int(second_multiple_input[2]) # fila
         j2 = int(second_multiple_input[3]) # columna
 # Write your code here
+intentos = 0
+victorias = 0
+#Crear un bucle que haga mover a la rana de forma aleatória hasta que muera o salga
+#Con ese bucle contar las victorias e intentos y calcular la probabilidad
+while intentos < 10000:
+    rana = "R"
+    movimiento = random.randint(1, 4)
+    if movimiento == 1:
+        col_nueva = 
+        
 # Write your code here
 
