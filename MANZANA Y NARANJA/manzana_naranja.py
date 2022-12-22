@@ -30,3 +30,4 @@ if __name__ == '__main__':
     apples = list(map(int, input().rstrip().split())) # Distancia de las manzanas
     oranges = list(map(int, input().rstrip().split())) # Distancia de las naranjas
     countApplesAndOranges(s, t, a, b, apples, oranges)
+    
