@@ -15,8 +15,17 @@ import sys
 # 6. INTEGER_ARRAY oranges
 #
 def countApplesAndOranges(s, t, a, b, apples, oranges):
-    
-# Write your code here
+    totalapples=0
+    totalorange=0
+    for i in range(len(apples)):
+        if s<= a + apples[i]<=t:
+            totalapples+=1
+    for i in range(len(oranges)):
+        if s<= b + oranges[i]<=t: #igual con naranjas
+            totalorange+=1
+    print("En total han caido", str(totalapples),"manzanas")
+    print("En total han caido", str(totalorange),"narajas")
+
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
     s = int(first_multiple_input[0]) # Inicio de la casa
